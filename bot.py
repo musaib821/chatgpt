@@ -10,7 +10,7 @@ parent_dir = Path(__file__).resolve().parent
 config = dotenv_values(f"{parent_dir}/.env")
 
 # init telegram bot
-BOT_TOKEN = config["BOT_TOKEN"]
+BOT_TOKEN ="6109796329:AAFgfxMx5sZXSAUJQZJFdf_6aG2iBG4fRKk"
 bot = AsyncTeleBot(BOT_TOKEN)
 
 # init chatbot
